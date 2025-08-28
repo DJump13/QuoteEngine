@@ -23,5 +23,6 @@ Given a 3D .STEP file, this program outputs an estimated quote and lead time for
    conda env list
 
 ## Usage
+   Putting your .step file in the same directory is easiest, otherwise specify the path to the .step file
    ```bash
-   python main.py path_to_your_step_file_here.step
+   python main.py your_step_file_here.step
