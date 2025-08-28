@@ -14,7 +14,14 @@ Given a 3D .STEP file, this program outputs an estimated quote and lead time for
    ```bash
    git clone https://github.com/DJump13/QuoteEngine.git
    cd QuoteEngine
-2. **Create the Conda enviroment**
+2. **Create and activate the Conda enviroment**
    ```bash
    conda env create -f environment.yml
    conda activate occ_env
+3. **Verify installation**
+   ```bash
+   conda env list
+
+## Usage
+   ```bash
+   python main.py path_to_your_step_file_here.step
